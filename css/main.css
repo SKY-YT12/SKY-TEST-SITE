@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,500;0,800;1,500;1,800&display=swap');
+
+.hi {
+	color: #cfcfcf;
+}
+
+#Lisya-moya {
+	color: #f06124;
+	padding-top: 15px;
+}
+
+#down {
+	background: #1f1f1f;
+		text-align: center;
+		border-radius: 40px;
+		padding: 20px;
+		margin-bottom: 10px;;
+}
+
+a:hover {
+	color: #0644b8;
+	text-decoration: underline;
+	text-decoration-color: #4106b8;
+	cursor: pointer;
+}
+
+a {
+	color: #f06124;
+}
+
+body {
+	background-color: #2d2e2e;
+	color: #c2c2c2;
+	font-family: 'Mulish', sans-serif;
+	text-align: 16px;
+	}
+
+	#first {
+		background-image: url('https://erc.europa.eu/sites/default/files/styles/slide_image/public/2023-07/GettyImages-1397946371.jpg?itok=r1FvoZbG');
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	height: 300px;
+	background-attachment: fixed;
+	border-radius: 40px;
+	padding-left: 40px;
+	margin-bottom: 10px;
+	}
+
+	#main-text {
+		background: #1f1f1f;
+		text-align: center;
+		border-radius: 40px;
+		padding: 20px;
+		margin-bottom: 10px;
+	}
+
+	.table {
+		text-align: left;
+	}
+
+	#forma {
+		background: #1f1f1f;
+		text-align: left;
+		border-radius: 40px;
+		padding: 20px;
+		width: 350px;
+		float: left;
+	}
+
+	.wiki {
+		color: #f06124
+	}
+
+	.wiki:hover {
+		color: #0644b8;
+		text-decoration: underline;
+		text-decoration-color: #4106b8;
+		cursor: pointer;
+	}
+
+	#add-text {
+		background: #1f1f1f;
+		text-align: center;
+		border-radius: 40px;
+		padding: 20px;
+		margin-bottom: 10px;
+	}
+
+	#lisya {
+		border-radius: 40px;
+		margin-left: 15px;
+	}
+
+.default-block {
+    background-color: #2e3136;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin: 10px;
+    margin-top: 0;
+}
+
+.gradient-block {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK0OEBwdGrOPWafoS0-fy_ENQTYX3RQTti16rWHNI7&s') no-repeat;
+    background-size: cover;
+    border: 10px solid;
+    border-color: #2e3136;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 10px;
+    margin-top: 0;
+}
+
