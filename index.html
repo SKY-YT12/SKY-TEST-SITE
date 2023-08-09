@@ -31,7 +31,9 @@
 	</details>
 	</div>
 	<!--Крч, тег <span> делает блоки(css), но не на всю стр., во отличии от <div>-->
-		<div id="forma"><p>Форма(временно никуда не отправляется):</p>
+		<div class="gradient-block" id="g-block">
+
+		<div class="default-block" id="forma"><p>Форма(временно никуда не отправляется):</p>
 		<form action="" method="post">
 			<input type="text" placeholder="Введите никнейм" maxlength="20" name="user_nickname" id="user_nickname"><br>
 			<input type="email" placeholder="Адрес электронной почты" name="user_email" id="user_email"><br>
@@ -54,21 +56,25 @@
 			<label>Кто вкуснее?</label>
 			<select>
 				<option>PoNeDy</option>
-				<option>YOHAN</option>
+				<option disabled>YOHAN</option>
 				<option disabled title="Меня пока не пробовали">SKY</option>
 			</select><br>
 			<input type="submit" name="forma_otprav" title="Когда ты нажимаешь на эту кнопку, 1 Понеди во всем мире сдыхает как чурка">
 			<input type="reset" name="forma_chist" title="Когда ты нажимаешь на эту кнопку, ещё 1 Понеди во всем мире сдыхает как чурка" value="Очистить">
-			<progress>Анимация</progress>
 			<details>
 				<summary>Подробнее</summary>
 				Понеди бездарь
 			</details>
 		</form></div>
-		<img src="images/lisya.jpg" alt="Здесь была Лися..." width="616px" id="lisya">
-		<div id="footer">SKY TEST SITE. Copyright. 2023. by sky and yohan.</div>
+		</div>
+	<div id="lisya">
+		<details>
+			<summary>Фото Лиси</summary>
+			<img src="images/lisya.jpg" alt="Здесь была Лися..." id="lisya">
+		</details>
+	</div>
+		<div id="footer"><b>SKY TEST SITE. Copyright. 2023. by sky and yohan.</b></div>
 	<a name="down"></a>
 	<script src="js/main.js" type="text/javascript"></script>
-
 </body>
 </html>
